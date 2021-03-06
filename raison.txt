@@ -1,0 +1,9 @@
+En faites il y a cette série: Gravity falls. À chaque fin d'épisode il y a un message secret qui peut être décoder et c'est à cela que sert mon programme.
+Il sert à décoder tous les messages que l'on trouve. J'ai fait cela juste pour rendre plus rapide la traduction.
+
+Les langages traductibles:
+- Caesar
+- Atbash
+- A1Z26
+
+Cela m'a plus de programmer sous forme objet avec une classe. C'est quand même mieux.
