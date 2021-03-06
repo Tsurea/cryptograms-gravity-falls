@@ -1,4 +1,5 @@
 from tkinter import *
+import os
 
 # Bug à corriger
 class MyApp:
@@ -31,7 +32,8 @@ class MyApp:
         
         self.window.title("Cryptogramme")
         self.window.geometry("825x150")
-        self.window.iconbitmap("img/language.ico")
+	if os.path.exists("img/language.ico"):
+        	self.window.iconbitmap("img/language.ico")
         self.window.resizable(0, 0)
         self.window.config(background=self.color)
          
